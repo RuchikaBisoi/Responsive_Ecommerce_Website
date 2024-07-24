@@ -1,0 +1,130 @@
+[
+    {
+        "img": "img/products/f1.jpg",
+        "brand": "Adidas",
+        "title": "Cartoon Astronaut T-shirt",
+        "stars": 4,
+        "price": "$78",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f2.jpg",
+        "brand": "Nike",
+        "title": "Running Shoes",
+        "stars": 5,
+        "price": "$120",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f3.jpg",
+        "brand": "Puma",
+        "title": "Sport Jacket",
+        "stars": 3,
+        "price": "$95",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f4.jpg",
+        "brand": "Adidas",
+        "title": "Cartoon Astronaut T-shirt",
+        "stars": 4,
+        "price": "$78",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f5.jpg",
+        "brand": "Nike",
+        "title": "Running Shoes",
+        "stars": 5,
+        "price": "$120",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f6.jpg",
+        "brand": "Puma",
+        "title": "Sport Jacket",
+        "stars": 3,
+        "price": "$95",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f4.jpg",
+        "brand": "Adidas",
+        "title": "Cartoon Astronaut T-shirt",
+        "stars": 4,
+        "price": "$78",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f5.jpg",
+        "brand": "Nike",
+        "title": "Running Shoes",
+        "stars": 5,
+        "price": "$120",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/f6.jpg",
+        "brand": "Puma",
+        "title": "Sport Jacket",
+        "stars": 3,
+        "price": "$95",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n1.jpg",
+        "brand": "Adidas",
+        "title": "Cartoon Astronaut T-shirt",
+        "stars": 4,
+        "price": "$78",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n2.jpg",
+        "brand": "Nike",
+        "title": "Running Shoes",
+        "stars": 5,
+        "price": "$120",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n3.jpg",
+        "brand": "Puma",
+        "title": "Sport Jacket",
+        "stars": 3,
+        "price": "$95",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n4.jpg",
+        "brand": "Nike",
+        "title": "Running Shoes",
+        "stars": 5,
+        "price": "$120",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n5.jpg",
+        "brand": "Puma",
+        "title": "Sport Jacket",
+        "stars": 3,
+        "price": "$95",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n6.jpg",
+        "brand": "Nike",
+        "title": "Running Shoes",
+        "stars": 5,
+        "price": "$120",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    },
+    {
+        "img": "img/products/n7.jpg",
+        "brand": "Puma",
+        "title": "Sport Jacket",
+        "stars": 3,
+        "price": "$95",
+        "cartIcon": "fa-solid fa-cart-shopping"
+    }
+]
