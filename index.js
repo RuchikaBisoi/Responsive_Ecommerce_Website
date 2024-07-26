@@ -3,6 +3,26 @@ const itemsPerPage = 6;
 let filteredItems = [];
 let allProducts = [];
 
+
+    const bar = document.getElementById('bar');
+    const close = document.getElementById('close');
+    const navbar = document.getElementById('navbar');
+
+    if (bar) {
+        bar.addEventListener('click', () => {
+            navbar.classList.add('active');
+        });
+    }
+
+    if (close) {
+        close.addEventListener('click', () => {
+            navbar.classList.remove('active');
+        });
+    }
+
+
+
+
 const fetchProducts = async () => {
     try {
         const response = await fetch('productItems.json');
@@ -89,10 +109,10 @@ const displayNoResultsMessage = () => {
     const storeItems = document.getElementById("content");
     const paginationElement = document.getElementById("pagination");
 
-    // Clear existing products and pagination
+    
     storeItems.innerHTML = "";
     paginationElement.innerHTML = "";
 
-    // Display no results message
+    
     storeItems.innerHTML = "<p>No matches found</p>";
 };
