@@ -260,54 +260,53 @@ h3{
     color: black;
 }
 .footer {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .footer-logo {
-    margin-bottom: 20px;
-}
-
-.footer-container {
-    display: flex;
-}
-.footer {
-    margin: 20px;
-    text-align: start;
-}
-
-.footer-logo {
-    margin-bottom: 20px;
-}
-
-.footer-container {
-    display: flex;
-    width: 100%;
+    display: block;
+    max-width: 100px; /* Adjust based on your logo size */
+    margin: 0 auto 20px; /* Center logo and add margin below */
 }
 
 .footer-info {
     display: flex;
-    width: 100%;
-    margin-bottom: 20px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.footer-info > div {
-    padding: 10px;
-    box-sizing: border-box;
-    width: 100%;
-}
-
+.footer-contact,
+.footer-abt,
 .footer-pay {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+    flex: 1;
+    min-width: 200px; /* Adjust based on your layout needs */
+    margin-right: 20px; /* Add space between columns */
+}
+
+.footer-contact ul,
+.footer-abt ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact li,
+.footer-abt li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.footer-contact span,
+.footer-abt a {
+    display: block;
+    color: #333; /* Adjust text color as needed */
+    text-decoration: none;
 }
 
 .footer-pay img {
-    margin: 5px 0;
+    max-width: 100px; /* Adjust based on your images */
+    margin-right: 10px; /* Add space between images */
 }
 
 
@@ -655,6 +654,16 @@ h3{
     }
     .contact-person-info .people img{
         height: 50px;
+    }
+    .footer-info {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+    }
+
+    .footer-contact,
+    .footer-abt,
+    .footer-pay {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px; /* Add space below each section */
     }
 }
 
